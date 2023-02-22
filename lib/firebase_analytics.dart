@@ -172,9 +172,9 @@ class AnalyticsManager {
   ///
   /// return:なし
   ///
-  void setUserInfo(
-    String userId,
-  ) {
+  void setUserInfo({
+    required String userId,
+  }) {
     _analytics.setUserId(id: userId);
   }
 
